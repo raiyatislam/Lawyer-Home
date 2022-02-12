@@ -1,0 +1,263 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Montserrat', sans-serif;;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif;;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/**************************
+ * Lawyer code start *
+ * ************************/
+
+.header{
+ 	width: 100%;
+ 	padding: 10px 0px;
+}
+.header .bg-light{
+	background: #fff !important;
+}
+.header .navbar-light .navbar-nav .nav-link {
+    color: #28377e;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 15px;
+}
+.header .navbar-light .navbar-nav .nav-link.active {
+    color: #28377e;
+}
+.header .navbar-light .navbar-nav .nav-link:hover, .header .navbar-light .navbar-nav .nav-link:focus{
+	color: #f2622c;
+}
+.slider{
+	width: 100%;
+	padding: 100px 0px;
+	background: url("../images/slider.png") center top no-repeat;
+	background-size: cover;
+}
+.slider h2{
+	font-size: 54px;
+	line-height: 64px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+}
+.arrow{
+	width: 100%;
+	padding: 130px 0px 0px;
+}
+.who-we{
+	width: 100%;
+	padding: 80px 0px;
+}
+.who-we .line{
+	margin: 45px 0px 10px;
+}
+.who-we h2{
+	font-size: 42px;
+	line-height: 52px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #1f4f87;
+	margin: 0px 0px 20px;
+}
+.who-we p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #b0b0b1;
+}
+.inner-img{
+	width: 100%;
+	text-align: center;
+}
+.what-we-do{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/wwd.png") center top no-repeat;
+	background-size: cover;
+}
+.title{
+	width: 100%;
+	padding: 0px 0px 80px;
+	text-align: center;
+}
+.title img{
+	margin: 0px 0px 10px;
+}
+.title h2{
+	font-size: 42px;
+	line-height: 52px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #2b2f85;
+}
+.what-we-do .inner-box{
+	width: 100%;
+	position: relative;
+}
+.inner-box .inner-text{
+	width: 100%;
+	height: 100%;
+	top: 50%;
+	text-align: center;
+	position: absolute;
+}
+.inner-box .inner-text h4{
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+}
+.long-arrow {
+    width: 100%;
+    margin: 75px 0px 0px;
+}
+
+
+.attorney{
+		width: 100%;
+	padding: 80px 0px;
+	background: url("../images/1.png") center top no-repeat;
+	background-size: cover;
+}
+
+
+.attorney .title{
+	width: 100%;
+	padding: 0px 0px 80px;
+	text-align: left;
+}
+.attorney .title img{
+	margin: 0px 0px 10px;
+}
+.attorney .title h2{
+	font-size: 42px;
+	line-height: 52px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+}
+.attorney .title p{
+	width: 100%;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #929dcf;
+}
+.attorney .title .btn-link{
+	font-weight: 400;
+	color: #f2622c;
+	text-decoration: none;
+	padding: 0px;
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.attorney .inner-box{
+	width: 100%;
+	position: relative;
+	margin: 0px 0px 20px;
+}
+.attorney .inner-box img{
+	width: 100%;
+}
+.attorney .inner-box .inner-text {
+    width: 100%;
+    position: absolute;
+    top: 78%;
+    left: 35px;
+}
+.attorney .inner-box .inner-text h4{
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: left;
+}
+.language{
+	width: 100%;
+	padding: 80px 0px;
+}
+.inner-language{
+	width: 100%;
+}
+.inner-language h4{
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: 700;
+	color: #28377e;
+}
+.inner-language p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #b0b0b1;
+}
+.inner-language .btn-link{
+	font-weight: 400;
+	color: #f2622c;
+	text-decoration: none;
+	padding: 0px;
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+.contact {
+    width: 100%;
+    padding: 80px 0px 80px;
+    background: url(../images/background.png) center top no-repeat;
+    background-size: cover;
+}
+.contact .title h2 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+.contactform .form-control {
+    border: 0px solid white;
+    margin: 0px 0px 40px;
+    background-color: transparent;
+    border-bottom: 2px solid #4759a7;
+}
+.contactform .form-group .btn-info {
+    margin: 10px 0px;
+    font-weight: 600;
+    padding: 10px 80px;
+    color: #fff;
+    border: 0px solid #f2622c;
+    background-color: #f2622c;
+}
+.footer {
+    width: 100%;
+    padding: 45px 0px;
+    background: url(../images/footer.png) center top no-repeat;
+}
+.footer p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #616ca8;
+    margin-bottom: 0px;
+}
+.footer .socials {
+    text-align: right;
+}
+.footer img {
+    margin-left: 30px;
+}
